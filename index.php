@@ -28,8 +28,8 @@
  <?php
     $host = "bangonel.database.windows.net";
     $user = "admin1";
-    $pass = "@Sukupraya2";
-    $db = "Bangonel";
+    $pass = "@sukupraya2";
+    $db = "bangonel";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
